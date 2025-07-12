@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+python-dotenv
+colorama
+python-telegram-bot
+slack_sdk
+Flask
+flask-cors
+selenium
+playwright 
