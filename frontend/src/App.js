@@ -160,6 +160,12 @@ function App() {
                   </a>
                   <span className="event-status">{event.status || 'Unknown'}</span>
                   <button
+                    onClick={() => window.open(event.url, '_blank')}
+                    className="buy-btn"
+                  >
+                    Buy Ticket
+                  </button>
+                  <button
                     onClick={() => removeEvent(event.url)}
                     className="remove-btn"
                     disabled={loading}

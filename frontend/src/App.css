@@ -288,3 +288,20 @@ button:disabled {
 button:disabled {
   animation: pulse 1.5s infinite;
 }
+
+.buy-btn {
+  background: linear-gradient(90deg, #22c55e 60%, #38bdf8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.2s, transform 0.2s;
+}
+.buy-btn:hover {
+  background: linear-gradient(90deg, #16a34a 60%, #2563eb 100%);
+  transform: scale(1.04);
+}
